@@ -27,7 +27,7 @@ Future<void> main() async {
       androidNotificationChannelId: 'com.axon.music.playback',
       androidNotificationChannelName: 'AXON Music',
       androidNotificationOngoing: true,
-      androidStopForegroundOnPause: false,
+      androidStopForegroundOnPause: true,
     ),
   ) as AxonAudioHandler;
 
